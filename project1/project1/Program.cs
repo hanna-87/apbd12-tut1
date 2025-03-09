@@ -12,16 +12,20 @@ public class Calculator
             throw new ArgumentException("Array cannot be null or empty");
         }
 
-        double sem = 0;
+
+        double summ = 0;
+
 
         // Loop through the array to calculate the sum of the numbers
         foreach (int number in numbers)
         {
-            sem += number;
+
+            summ += number;
         }
 
         // Calculate and return the average
-        return sem / numbers.Length;
+        return summ / numbers.Length;
+
     }
     
     class Calculator
